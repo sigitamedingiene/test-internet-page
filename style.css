@@ -1,0 +1,177 @@
+/* Mobile first */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: #59725a;
+    height: 100px;
+    text-align: center;
+}
+
+.logo-container {
+    height: 50px;
+    padding-top: 10px;
+}
+
+.logo {
+    height: 100%;
+}
+
+input {
+    padding-left: 25px;
+    background: url("lupa.png") no-repeat left;
+    background-size: 20px;
+    background-color: #eff2ef;
+    color: #c0cbc1;
+}
+
+.hero {
+    background: linear-gradient(#59725a, #4f6550, #455846, #3b4c3c, #d8d42d);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #f1ec32;
+}
+
+.people-img {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section div img {
+    height: 100%;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.content-img {
+    height: 200px;
+}
+
+h3 {
+    color: #d8d42d;
+    padding-top: 20px;
+}
+
+.info {
+    margin: 0;
+    text-align: center;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    color: #d8d42d;
+}
+
+.footer-container {
+    background-color: #59725a;
+    border-top: 20px solid #d8d42d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div a {
+    color: #eff2ef;
+}
+
+@media screen and (min-width: 800px) {
+    header {
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 700px;
+    }
+
+    .logo-container {
+        height: 200px;
+    }
+
+    input {
+        height: 70px;
+        width: 600px;
+        background-size: 40px;
+    }
+
+    .hero {
+        height: 900px;
+    }
+
+    h2 {
+        font-size: 85px;
+    }
+
+    .img-container {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .people-img {
+        height: 600px;
+        margin-top: -200px;
+    }
+
+    .content-container {
+        font-size: xx-large;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .content {
+        display: flex;
+        padding: 40px;
+    }
+
+    .content-img {
+        height: 400px;
+        padding-left: 500px;
+    }
+
+    h3 {
+        font-size: 54px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        font-size: xx-large;
+        padding-bottom: 40px;
+    }
+
+    .footer-info {
+        width: 25%;
+    }
+}
